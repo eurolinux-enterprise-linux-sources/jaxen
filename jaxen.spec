@@ -30,7 +30,7 @@
 
 Name:           jaxen
 Version:        1.1.3
-Release:        11%{?dist}
+Release:        10%{?dist}
 Epoch:          0
 Summary:        An XPath engine written in Java
 License:        BSD
@@ -126,9 +126,6 @@ install -p -m 644 pom.xml $RPM_BUILD_ROOT%{_mavenpomdir}/JPP-%{name}.pom
 %{_datadir}/%{name}-%{version}
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.1.3-11
-- Mass rebuild 2013-12-27
-
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:1.1.3-10
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
